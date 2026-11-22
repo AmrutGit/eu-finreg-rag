@@ -1,0 +1,16 @@
+# secrets
+.env
+*.env
+token
+# data, indexes, model caches, raw eval output
+data/
+results/raw/
+.cache/
+*.safetensors
+*.bin
+*.onnx
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
