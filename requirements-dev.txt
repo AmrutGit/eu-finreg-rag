@@ -1,0 +1,7 @@
+# Tests run without the embedding model (HashEmbedder) and without API keys.
+fastapi
+httpx
+qdrant-client
+anthropic
+pytest
+ruff
