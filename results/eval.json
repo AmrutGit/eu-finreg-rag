@@ -1,0 +1,765 @@
+{
+ "meta": {
+  "timestamp": "2026-11-22T20:12:48+00:00",
+  "embedder": "BAAI/bge-small-en-v1.5",
+  "questions": "evals/questions.jsonl",
+  "n_questions": 60,
+  "answers": false
+ },
+ "results": [
+  {
+   "chunk_chars": 512,
+   "retrieval": {
+    "hit@1": 0.5666666666666667,
+    "hit@3": 0.8166666666666667,
+    "hit@5": 0.8666666666666667,
+    "hit@10": 0.9166666666666666,
+    "mrr@10": 0.6948611111111112,
+    "art@5": 0.9333333333333333,
+    "p50_s": 0.01846270076930523,
+    "p95_s": 0.026399699971079826,
+    "n": 60
+   },
+   "per_question": [
+    {
+     "qid": "q01",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.022183699533343315
+    },
+    {
+     "qid": "q02",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.02442139945924282
+    },
+    {
+     "qid": "q03",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.023812800645828247
+    },
+    {
+     "qid": "q04",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.02358500100672245
+    },
+    {
+     "qid": "q05",
+     "rank": 10,
+     "article_rank": 3,
+     "retrieval_s": 0.0174988005310297
+    },
+    {
+     "qid": "q06",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.016411200165748596
+    },
+    {
+     "qid": "q07",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.019169500097632408
+    },
+    {
+     "qid": "q08",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.01709049940109253
+    },
+    {
+     "qid": "q09",
+     "rank": 3,
+     "article_rank": 3,
+     "retrieval_s": 0.016504300758242607
+    },
+    {
+     "qid": "q10",
+     "rank": 3,
+     "article_rank": 3,
+     "retrieval_s": 0.016998600214719772
+    },
+    {
+     "qid": "q11",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.018542401492595673
+    },
+    {
+     "qid": "q12",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.024092799052596092
+    },
+    {
+     "qid": "q13",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.027118800207972527
+    },
+    {
+     "qid": "q14",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.0227511003613472
+    },
+    {
+     "qid": "q15",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.020961901172995567
+    },
+    {
+     "qid": "q16",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.02070770040154457
+    },
+    {
+     "qid": "q17",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.027875499799847603
+    },
+    {
+     "qid": "q18",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016197899356484413
+    },
+    {
+     "qid": "q19",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.021570399403572083
+    },
+    {
+     "qid": "q20",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.022125599905848503
+    },
+    {
+     "qid": "q21",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.024660799652338028
+    },
+    {
+     "qid": "q22",
+     "rank": 5,
+     "article_rank": 1,
+     "retrieval_s": 0.027340101078152657
+    },
+    {
+     "qid": "q23",
+     "rank": null,
+     "article_rank": null,
+     "retrieval_s": 0.026399699971079826
+    },
+    {
+     "qid": "q24",
+     "rank": 3,
+     "article_rank": 3,
+     "retrieval_s": 0.015712101012468338
+    },
+    {
+     "qid": "q25",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016163598746061325
+    },
+    {
+     "qid": "q26",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01598369888961315
+    },
+    {
+     "qid": "q27",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01710519939661026
+    },
+    {
+     "qid": "q28",
+     "rank": null,
+     "article_rank": null,
+     "retrieval_s": 0.015732500702142715
+    },
+    {
+     "qid": "q29",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.018198300153017044
+    },
+    {
+     "qid": "q30",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.018731599673628807
+    },
+    {
+     "qid": "q31",
+     "rank": null,
+     "article_rank": 4,
+     "retrieval_s": 0.019087499007582664
+    },
+    {
+     "qid": "q32",
+     "rank": null,
+     "article_rank": 7,
+     "retrieval_s": 0.022582700476050377
+    },
+    {
+     "qid": "q33",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.019168000668287277
+    },
+    {
+     "qid": "q34",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.015354400500655174
+    },
+    {
+     "qid": "q35",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.014301100745797157
+    },
+    {
+     "qid": "q36",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.02317729964852333
+    },
+    {
+     "qid": "q37",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.018383000046014786
+    },
+    {
+     "qid": "q38",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.022036101669073105
+    },
+    {
+     "qid": "q39",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.017245600000023842
+    },
+    {
+     "qid": "q40",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016292300075292587
+    },
+    {
+     "qid": "q41",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.017917098477482796
+    },
+    {
+     "qid": "q42",
+     "rank": 8,
+     "article_rank": 8,
+     "retrieval_s": 0.022589299827814102
+    },
+    {
+     "qid": "q43",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013943798840045929
+    },
+    {
+     "qid": "q44",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.02169029973447323
+    },
+    {
+     "qid": "q45",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.016789600253105164
+    },
+    {
+     "qid": "q46",
+     "rank": 3,
+     "article_rank": 1,
+     "retrieval_s": 0.019495399668812752
+    },
+    {
+     "qid": "q47",
+     "rank": 10,
+     "article_rank": 4,
+     "retrieval_s": 0.018102901056408882
+    },
+    {
+     "qid": "q48",
+     "rank": 3,
+     "article_rank": 2,
+     "retrieval_s": 0.017986498773097992
+    },
+    {
+     "qid": "q49",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.0210409015417099
+    },
+    {
+     "qid": "q50",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01529889926314354
+    },
+    {
+     "qid": "q51",
+     "rank": null,
+     "article_rank": 4,
+     "retrieval_s": 0.016110600903630257
+    },
+    {
+     "qid": "q52",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016083799302577972
+    },
+    {
+     "qid": "q53",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.017761999741196632
+    },
+    {
+     "qid": "q54",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.020338699221611023
+    },
+    {
+     "qid": "q55",
+     "rank": 4,
+     "article_rank": 1,
+     "retrieval_s": 0.015768000856041908
+    },
+    {
+     "qid": "q56",
+     "rank": 4,
+     "article_rank": 1,
+     "retrieval_s": 0.025654099881649017
+    },
+    {
+     "qid": "q57",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.020886098966002464
+    },
+    {
+     "qid": "q58",
+     "rank": 2,
+     "article_rank": 2,
+     "retrieval_s": 0.013540999963879585
+    },
+    {
+     "qid": "q59",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.015832500532269478
+    },
+    {
+     "qid": "q60",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.015712400898337364
+    }
+   ],
+   "n_chunks": 1514
+  },
+  {
+   "chunk_chars": 1024,
+   "retrieval": {
+    "hit@1": 0.75,
+    "hit@3": 0.8833333333333333,
+    "hit@5": 0.9333333333333333,
+    "hit@10": 0.95,
+    "mrr@10": 0.8200000000000001,
+    "art@5": 0.9833333333333333,
+    "p50_s": 0.01425775047391653,
+    "p95_s": 0.019707798957824707,
+    "n": 60
+   },
+   "per_question": [
+    {
+     "qid": "q01",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016113899648189545
+    },
+    {
+     "qid": "q02",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01727369986474514
+    },
+    {
+     "qid": "q03",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.021011799573898315
+    },
+    {
+     "qid": "q04",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.014417899772524834
+    },
+    {
+     "qid": "q05",
+     "rank": 3,
+     "article_rank": 1,
+     "retrieval_s": 0.018501900136470795
+    },
+    {
+     "qid": "q06",
+     "rank": 2,
+     "article_rank": 1,
+     "retrieval_s": 0.019120000302791595
+    },
+    {
+     "qid": "q07",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.011932900175452232
+    },
+    {
+     "qid": "q08",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.019707798957824707
+    },
+    {
+     "qid": "q09",
+     "rank": 3,
+     "article_rank": 1,
+     "retrieval_s": 0.014552099630236626
+    },
+    {
+     "qid": "q10",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.014606898650527
+    },
+    {
+     "qid": "q11",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.015361400321125984
+    },
+    {
+     "qid": "q12",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01800359971821308
+    },
+    {
+     "qid": "q13",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.023190898820757866
+    },
+    {
+     "qid": "q14",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.022011298686265945
+    },
+    {
+     "qid": "q15",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01690319925546646
+    },
+    {
+     "qid": "q16",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016746200621128082
+    },
+    {
+     "qid": "q17",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016694199293851852
+    },
+    {
+     "qid": "q18",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013856399804353714
+    },
+    {
+     "qid": "q19",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.014059100300073624
+    },
+    {
+     "qid": "q20",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.014119401574134827
+    },
+    {
+     "qid": "q21",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016298700124025345
+    },
+    {
+     "qid": "q22",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01690029911696911
+    },
+    {
+     "qid": "q23",
+     "rank": 2,
+     "article_rank": 2,
+     "retrieval_s": 0.01728379912674427
+    },
+    {
+     "qid": "q24",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013747399672865868
+    },
+    {
+     "qid": "q25",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013927999883890152
+    },
+    {
+     "qid": "q26",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013653300702571869
+    },
+    {
+     "qid": "q27",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.014392301440238953
+    },
+    {
+     "qid": "q28",
+     "rank": null,
+     "article_rank": null,
+     "retrieval_s": 0.013801800087094307
+    },
+    {
+     "qid": "q29",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01585109904408455
+    },
+    {
+     "qid": "q30",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01652970165014267
+    },
+    {
+     "qid": "q31",
+     "rank": 3,
+     "article_rank": 3,
+     "retrieval_s": 0.013646800071001053
+    },
+    {
+     "qid": "q32",
+     "rank": 6,
+     "article_rank": 3,
+     "retrieval_s": 0.01403459906578064
+    },
+    {
+     "qid": "q33",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016161100938916206
+    },
+    {
+     "qid": "q34",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.015653198584914207
+    },
+    {
+     "qid": "q35",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.012072799727320671
+    },
+    {
+     "qid": "q36",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.014604398980736732
+    },
+    {
+     "qid": "q37",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.011876199394464493
+    },
+    {
+     "qid": "q38",
+     "rank": 2,
+     "article_rank": 2,
+     "retrieval_s": 0.013887600973248482
+    },
+    {
+     "qid": "q39",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.011860799044370651
+    },
+    {
+     "qid": "q40",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013951798900961876
+    },
+    {
+     "qid": "q41",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013844599947333336
+    },
+    {
+     "qid": "q42",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.014623001217842102
+    },
+    {
+     "qid": "q43",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.011623898521065712
+    },
+    {
+     "qid": "q44",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013473499566316605
+    },
+    {
+     "qid": "q45",
+     "rank": 5,
+     "article_rank": 1,
+     "retrieval_s": 0.01401669904589653
+    },
+    {
+     "qid": "q46",
+     "rank": 2,
+     "article_rank": 2,
+     "retrieval_s": 0.013773700222373009
+    },
+    {
+     "qid": "q47",
+     "rank": null,
+     "article_rank": 5,
+     "retrieval_s": 0.013284999877214432
+    },
+    {
+     "qid": "q48",
+     "rank": 4,
+     "article_rank": 1,
+     "retrieval_s": 0.014085501432418823
+    },
+    {
+     "qid": "q49",
+     "rank": 3,
+     "article_rank": 3,
+     "retrieval_s": 0.015296200290322304
+    },
+    {
+     "qid": "q50",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01252719946205616
+    },
+    {
+     "qid": "q51",
+     "rank": null,
+     "article_rank": 3,
+     "retrieval_s": 0.014589399099349976
+    },
+    {
+     "qid": "q52",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01471949927508831
+    },
+    {
+     "qid": "q53",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.011594800278544426
+    },
+    {
+     "qid": "q54",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.01384039968252182
+    },
+    {
+     "qid": "q55",
+     "rank": 4,
+     "article_rank": 1,
+     "retrieval_s": 0.013276999816298485
+    },
+    {
+     "qid": "q56",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.016476601362228394
+    },
+    {
+     "qid": "q57",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013561198487877846
+    },
+    {
+     "qid": "q58",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.011212700977921486
+    },
+    {
+     "qid": "q59",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.013646101579070091
+    },
+    {
+     "qid": "q60",
+     "rank": 1,
+     "article_rank": 1,
+     "retrieval_s": 0.014123199507594109
+    }
+   ],
+   "n_chunks": 736
+  }
+ ]
+}
